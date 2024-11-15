@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+
+}
+body{
+    background-color: grey;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background: url(1\ \(2\).png) no-repeat center/cover;;
+    height: 875px;
+   
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.head_menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.head_menu a{
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.head_menu a:hover{
+    color: rgba(245, 117, 32, 1);
+}
+.nav_icons{
+    display: flex;
+    gap: 20px;
+}
+.head_main{
+    padding-top: 140px;
+}
+.head_main h1{
+    color: white;
+    font-size: 96px;
+    padding-bottom: 30px;
+}
+.head_main p{
+    color: white;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+.head_main button{
+    width: 180px;
+    height: 52px;
+    border-radius: 7px;
+    background-color: rgba(245, 117, 32, 1);
+}
+main h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.content{
+    width: 1250px;
+    height: 750px;
+    
+    margin: auto;
+    margin-top: 50px;
+}
+.zapchasti{
+    position: relative;
+    bottom: 240px;
+}
+.ekipir{
+    position: relative;
+    left: 808px;
+    bottom: 460px;
+}
+.velos{
+    position: relative;
+    right: 405px;
+    bottom: 13px;
+}
+.o-o{
+    position: relative;
+    left: 358px;
+    bottom: 230px;
+}
+main p{
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.image{
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 320px;
+    justify-content: center;
+    /* margin-top: 200px; */
+    margin: auto;
+    
+}
+.orange{
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+   
+}
+.orange:hover{
+    background-color: rgba(245, 117, 32, 1);
+    color: black;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    
+}
+
+.orange p{
+    font-size: 16px;
+    width: 315px;
+    height: 67px;
+    padding-left: 30px;
+}
+.orange img{
+    border-radius:15px  15px 0px 0px;
+}
+h3{
+    padding-left: 30px;
+}
+.input_put{
+    background: url();
+}
+ 
+.input_put{
+    padding-left: 300px;
+    margin: auto;
+}
+section{
+    width: 100%;
+   position: relative;
+   top: 100px;
+    height: 600px;
+    background-color:rgba(245, 117, 32, 1) ;
+    margin: auto;
+    display: flex;
+    
+   
+}
+.imya{
+    width: 332px;
+    height: 46px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 17px;
+}
+.telephone{
+    width: 332px;
+    height: 46px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+}
+.email{
+    width: 332px;
+    height: 46px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 17px;
+    position: relative;
+    left: 350px;
+    bottom: 95px;
+}
+.compani{
+    width: 332px;
+    height: 46px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 17px;
+    position: relative;
+    left: 350px;
+    bottom: 88px;
+}
+ .sms{
+    width: 708px;
+    height: 154px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 17px;
+    position: relative;
+    bottom: 50px;
+}
+.savol{
+    width: 708px;
+    height: 52px;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 17px;
+   padding: auto;
+    color: orangered;
+    position: relative;
+    bottom: 30px;
+
+}
+section{
+    margin: auto;
+}
+
+
+.divvel h2{
+    /* justify-content: flex-start; */
+    width: 620px;
+    height: 92px;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    left: 520px;
+    top: 50px;
+}
+.sectional{
+    width: 610px;
+    height: 354px;
+   margin: auto;
+    margin-top: 180px;
+    margin-left: -100px;
+    position: relative;
+}
+.map{
+    margin-top: 100px;
+}
+footer{
+    height: 270px;
+    background-color: black;
+    padding-top: 50px;
+}
+
+
